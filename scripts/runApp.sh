@@ -11,4 +11,4 @@ echo $! > .pidfile  # echo $! will show the scripts running in the background
 set +x
 
 echo 'Now you can'
-echo 'Visit http://ServerIp:9981 to see your Node.js application'
+echo 'Visit http://172.31.47.50:8080/ to see your Node.js application'
