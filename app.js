@@ -5,7 +5,7 @@ const cfenv = require('cfenv');
 var app  =  express(); 
 var appEnv = cfenv.getAppEnv();
 var url = process.env.url
-app.set('port', (process.env.PORT || http://localhost:9981/))
+app.set('port', (process.env.PORT || http://localhost:9981))
 app.use(express.static(__dirname + '/images'))
 
 
